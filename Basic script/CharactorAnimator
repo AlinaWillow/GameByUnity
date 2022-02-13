@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class CharactorAnimator : MonoBehaviour
+{
+    const float locomationAnimationSmoothTime = 1.f;
+
+    NavMeshAgent agent;
+    CharactorAnimator animator;
+
+    void Start()
+    {
+        agent = GetComponent<NacMeshAgent>();
+        animator = GetComponentInChildren<animator>;
+    }
+
+
+    void Update()
+    {
+        float speedPercent = agent.velocity.magnitude / agent.speed;
+        animator.SetFloat("speedPercent", speedPercent, locomationAnimationSmoothTime, locomationAnimationSmoothTime.delTime);
+    }
+}
