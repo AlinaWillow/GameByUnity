@@ -1,3 +1,4 @@
+การใส่ aniamtion ตัวละคร
 ### **PROBLEM**
 1. It all went fine till animation part, in preview and solo they run fine, but in blend tree, 
 idle works, but walk and run get stuck in a single frame after half of the animation is played,
