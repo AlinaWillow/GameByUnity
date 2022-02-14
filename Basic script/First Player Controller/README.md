@@ -8,10 +8,13 @@
 6. Cylinder: Scale x=1.2 , y=1.8 , z=1.2
 7. Remove capsule collider
 
-Camera controll
+**Camera controll**
+
 8. Camera: Add C# script : MouseLook
 >  _put Player body : FPS_
- Keyboard controll
+
+ **Keyboard controll**
+
 9. FPS : Add C# script : PlayerMovement
 >controller : FPS
 >Stept offset =0.7
