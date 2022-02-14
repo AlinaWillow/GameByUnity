@@ -31,3 +31,18 @@ ________________________________________________________________________________
 > if(Input.GetButtonDown("Jump"))
 
 แต่มีปัญหาคือกระโดดกลางอากาศได้
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+### **ใส่ท่าทางให้ตัวละคร**
+-กำหนดท่าทางให้ตัวละครใน mixamo (Idle,walk,run)
+-นำตัวละครที่ใส่ท่าทางแล้วมาใส่ใน unity
+-example...Grandma_walk , Grandma_Idle
+
+1.Create > player controller>Rename: PlayerAnimator
+2. [C] Granma_walk > Add component: Animator
+3. Put PlayerAnimator into Animator >Controller : _____
+4. [DC] PlayerAnimator
+5. [RC] Create > From New Blend Tree > Rename : Movement
+6. [DC] Movement > (+) >____________(+)
+7. เรียงลำดับท่าทาง (0) Idel ,(1) Walk หรือ (0) Idel ,(0.5) Walk ,(1) Run 
+8. >Parameter > Blend > Rename : Speed
