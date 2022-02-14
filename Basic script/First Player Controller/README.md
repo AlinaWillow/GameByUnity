@@ -50,3 +50,5 @@ ________________________________________________________________________________
 6.  [DC] Movement > (+) >____________(+)
 7.  เรียงลำดับท่าทาง (0) Idel ,(1) Walk หรือ (0) Idel ,(0.5) Walk ,(1) Run 
 8.  > Parameter > Blend > Rename : Speed
+
+**Youtube** : https://www.youtube.com/watch?v=qc0xU2Ph86Q
