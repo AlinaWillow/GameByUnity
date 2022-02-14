@@ -34,9 +34,11 @@ ________________________________________________________________________________
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ### **ใส่ท่าทางให้ตัวละคร**
--กำหนดท่าทางให้ตัวละครใน mixamo (Idle,walk,run)
--นำตัวละครที่ใส่ท่าทางแล้วมาใส่ใน unity
--example...Grandma_walk , Grandma_Idle
+- กำหนดท่าทางให้ตัวละครใน mixamo (Idle,walk,run)
+- นำตัวละครที่ใส่ท่าทางแล้วมาใส่ใน unity
+- example...Grandma_walk , Grandma_Idle
+- อย่าลืมติ๊ก Loop Time และ Loop pose ของทุกท่า
+
 1. Create > player controller>Rename: PlayerAnimator
 2.  [C] Granma_walk > Add component: Animator
 3.  Put PlayerAnimator into Animator >Controller : _____
