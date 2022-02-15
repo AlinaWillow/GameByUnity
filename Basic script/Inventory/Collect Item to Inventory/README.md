@@ -1,4 +1,4 @@
-ใน PlayerController ให้เพิ่ม
+ใน PlayerMovement ให้เพิ่ม
 ` public Inventory inventory;`
 
 ใน void update()
