@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerHit : MonoBehaviour
+{
+    public CharacterController controller;
+
+    public GameObject npcPanel;
+
+    private int coin = 0;
+    public Text CoinText;
+
+    public Quest quest;
+
+    public void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag.Equals("Item"))
+        {
+            //Debug.Log("attach");
+            Destroy(hit.gameObject);
+            //ได้เงิน 1 เหรียญ
+            coin += 1;
+            CoinText.text = coin.ToString();
+        }
+
+        if (hit.gameObject.tag.Equals("NPC"))
+        {
+            // Debug.Log("Found NPC");
+
+            //Show Panel NPC dialogue
+            npcPanel.gameObject.SetActive(true);
+
+        }
+    }
+
+        
+}
