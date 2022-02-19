@@ -8,7 +8,7 @@ That's great! But if you need diferent characters talking... I supose that we ne
 But... How can we do for Start the next Dialogue? I supose we must create a function in DialogueManager script, but I don't know what to do... :'(
 
 
--Leandro Libarona
+- Leandro Libarona
 4 ปีที่แล้ว (แก้ไขแล้ว)
 Great as always! maybe a choice system (with a node editor) could be nice!!
 I was thinking something along the lines of the following structure:
