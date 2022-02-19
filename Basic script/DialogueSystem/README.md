@@ -27,3 +27,8 @@ effect -> void function which makes it possible for the Dialogue choice to affec
 
 picture -> for example, face of the talking character.
 tone -> could be an enum, which sets the style of the text
+
+- Ziying Tan
+2 ปีที่แล้ว
+For those who want to trigger the dialogue when you open the scene, use Awake(). Here are the details how to do that (million thanks to @Foggzie) https://stackoverflow.com/questions/54481993/brackeys-dialogue-without-start-buttonunity/59224401#59224401 Check your order of Start() and Awake() method, and make sure if you change the name of scripts, do the same to <>tag. 
+Again, thank you Brackeys for this brilliant tutorial!
