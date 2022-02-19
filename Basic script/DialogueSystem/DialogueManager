@@ -47,6 +47,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         //Debug.Log("End of conversation.");
-        npcPanel.gameObject.SetActive(false);
+      
     }
 }
